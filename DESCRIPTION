@@ -1,0 +1,19 @@
+Package: MongoEXFOR
+Type: Package
+Version: 0.1.0
+Date: 2019-03-13
+Title: MongoEXFOR: Reading EXFOR Entries from a MongoDb Database
+Authors@R: c(person("Georg", "Schnabel", role = c("aut", "cre"),
+		     email = "georg.schnabel@nucleardata.com"))
+Author: Georg Schnabel [aut, cre],
+Maintainer: Georg Schnabel <georg.schnabel@nucleardata.com>
+Depends:
+    R (>= 3.1.0)
+Description: This package provides functionality to retrieve
+    EXFOR entries stored in a MongoDb database. 
+License: GPL (>= 3)
+URL: https://www.r-project.org, https://github.com/gschnabel/MongoEXFOR
+BugReports: https://github.com/gschnabel/MongoEXFOR/issues
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
